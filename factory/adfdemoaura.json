@@ -1,0 +1,9 @@
+{
+	"name": "adfdemoaura",
+	"location": "francecentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3c17a1b1-efc5-423a-aed8-b59994679055",
+		"tenantId": "4d008ec9-015f-4f50-91bd-9a1e98bd8037"
+	}
+}
