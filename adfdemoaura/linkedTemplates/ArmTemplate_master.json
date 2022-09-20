@@ -7,6 +7,14 @@
 			"metadata": "Nom de fabrique de données",
 			"defaultValue": "adfdemoaura"
 		},
+		"trigger1_properties_typeProperties_recurrence_frequency": {
+			"type": "string",
+			"defaultValue": "Day"
+		},
+		"trigger1_properties_typeProperties_recurrence_interval": {
+			"type": "int",
+			"defaultValue": 1
+		},
 		"containerUri": {
 			"type": "string",
 			"metadata": "URI pour le compte de stockage contenant des modèles ARM liés"
@@ -33,6 +41,12 @@
 				"parameters": {
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
+					},
+					"trigger1_properties_typeProperties_recurrence_frequency": {
+						"value": "[parameters('trigger1_properties_typeProperties_recurrence_frequency')]"
+					},
+					"trigger1_properties_typeProperties_recurrence_interval": {
+						"value": "[parameters('trigger1_properties_typeProperties_recurrence_interval')]"
 					}
 				}
 			},
