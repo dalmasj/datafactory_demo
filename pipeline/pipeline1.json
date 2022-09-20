@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "rename",
+				"name": "feature",
 				"type": "SetVariable",
 				"dependsOn": [],
 				"userProperties": [],
