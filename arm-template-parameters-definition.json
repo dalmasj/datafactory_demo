@@ -75,8 +75,8 @@
             },
             "typeProperties": {
                 "recurrence": {
-                    "frequency":"=",
-                    "interval":"="
+                    "frequency": "=",
+                    "interval": "="
                 }
             }
         }
