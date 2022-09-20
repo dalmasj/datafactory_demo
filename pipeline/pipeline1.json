@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "rename",
+				"name": "flow1",
 				"type": "SetVariable",
 				"dependsOn": [],
 				"userProperties": [],
