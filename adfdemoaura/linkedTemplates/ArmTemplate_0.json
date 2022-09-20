@@ -19,7 +19,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "rename",
+						"name": "flow123",
 						"type": "SetVariable",
 						"dependsOn": [],
 						"userProperties": [],
@@ -38,7 +38,8 @@
 						"type": "String"
 					}
 				},
-				"annotations": []
+				"annotations": [],
+				"lastPublishTime": "2022-09-20T10:28:03Z"
 			},
 			"dependsOn": []
 		},
