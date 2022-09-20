@@ -19,7 +19,7 @@
 			"properties": {
 				"activities": [
 					{
-						"name": "Set variable1",
+						"name": "rename",
 						"type": "SetVariable",
 						"dependsOn": [],
 						"userProperties": [],
