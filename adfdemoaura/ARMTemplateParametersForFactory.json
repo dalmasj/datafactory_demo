@@ -4,6 +4,12 @@
 	"parameters": {
 		"factoryName": {
 			"value": "adfdemoaura"
+		},
+		"trigger1_properties_typeProperties_recurrence_frequency": {
+			"value": "Day"
+		},
+		"trigger1_properties_typeProperties_recurrence_interval": {
+			"value": 1
 		}
 	}
 }
