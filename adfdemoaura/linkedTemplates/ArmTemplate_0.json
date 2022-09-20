@@ -6,14 +6,6 @@
 			"type": "string",
 			"metadata": "Nom de fabrique de données",
 			"defaultValue": "adfdemoaura"
-		},
-		"trigger1_properties_typeProperties_recurrence_frequency": {
-			"type": "string",
-			"defaultValue": "Day"
-		},
-		"trigger1_properties_typeProperties_recurrence_interval": {
-			"type": "int",
-			"defaultValue": 1
 		}
 	},
 	"variables": {
@@ -69,8 +61,8 @@
 				"type": "ScheduleTrigger",
 				"typeProperties": {
 					"recurrence": {
-						"frequency": "[parameters('trigger1_properties_typeProperties_recurrence_frequency')]",
-						"interval": "[parameters('trigger1_properties_typeProperties_recurrence_interval')]",
+						"frequency": "Day",
+						"interval": 1,
 						"startTime": "2022-09-19T15:05:00Z",
 						"timeZone": "UTC"
 					}
