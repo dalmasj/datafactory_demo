@@ -74,8 +74,11 @@
                 }
             },
             "typeProperties": {
-
-            "scope":"="
+                "scope": "=",
+                "recurrence": {
+                    "frequency": "=",
+                    "interval": "="
+                }
             }
         }
     },
