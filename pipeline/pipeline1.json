@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "feature",
+				"name": "rename",
 				"type": "SetVariable",
 				"dependsOn": [],
 				"userProperties": [],
@@ -18,6 +18,8 @@
 				"type": "String"
 			}
 		},
-		"annotations": []
-	}
+		"annotations": [],
+		"lastPublishTime": "2022-09-20T10:28:03Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
 }
